@@ -1,0 +1,105 @@
+.nav-link{
+    font-weight: 500;
+    color: white !important;
+}
+header{
+    background: url(https://images.pexels.com/photos/733475/pexels-photo-733475.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+.te h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.te p{
+    font-weight: 400;
+}
+.register{
+    margin-top: 30px;
+    background-image: linear-gradient(to right, rgb(0, 0, 163), rgb(54, 97, 255));
+    padding: 40px;
+}
+.register-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.register-left img{
+    filter: invert(100%);
+    animation: MoveUpDown 1s linear infinite;
+}
+@keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+}
+.register-left h1{
+    font-size: 1.8rem;
+}
+.register-left input[type=submit]{
+    border-radius: 20px;
+    width: 150px;
+    /* padding: 3px !important; */
+    font-weight: 500;
+    margin-top: 40px;
+}
+.register-right{
+    border-radius: 100px 0 0 100px;
+}
+.register-right ul{
+    width: 200px;
+    border-radius: 30px;
+    background-color: blue;
+    float: right;
+    padding: 2px;
+}
+.register-right ul li a.active{
+    border-radius: 30px;
+    color: blue !important;
+}
+.register-right ul li a{
+    color: white;
+    font-weight: 600;
+    outline: none;
+}
+#myTabContent{
+    clear: right;
+}
+.register-heading{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+}
+.btnRegister{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    width: 150px;
+    float: right;
+    margin-top: 50px;
+}
+#about-section{
+    margin-top: 50px ;
+    padding: 30px;
+}
+.about-text h1{
+    font-size: 1.5rem;
+}
+.account-wall{
+    box-shadow: 0 0 9px;
+}
+.login-title{
+    font-size: 1.3rem;
+}
